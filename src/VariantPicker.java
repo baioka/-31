@@ -20,7 +20,7 @@ public class VariantPicker {
     }
 
     static void main() {
-        long id = 250000; // substitute your id here
+        long id = 606202; // substitute your id here
         printVariant(id);
     }
 }
