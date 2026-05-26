@@ -20,9 +20,17 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person that) {
-        // implement this according to your variant
-        return 0;
-    }
+        if (this.weight != that.weight) {
+    return this.weight - that.weight;
+}
+
+int first = this.firstname.compareTo(that.firstname);
+
+if (first != 0) {
+    return first;
+}
+
+return this.lastname.compareTo(that.lastname);
 
     static void main() {
         Person[] persons = {
